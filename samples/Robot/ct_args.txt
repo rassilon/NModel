@@ -19,7 +19,7 @@
 RobotModel1.Factory.Create
 
 #
-# Factory method of the stepper interface to the mplementation under test
+# Factory method of the stepper interface to the implementation under test
 #
 /iut:RobotImpl1.Stepper.Create
 
