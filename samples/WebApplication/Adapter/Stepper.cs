@@ -83,7 +83,7 @@ namespace Adapter
                     LoginStatus status = LoginStatus.Success;
                     if (WebTestHelper.loginFailed(page))
                         status = LoginStatus.Failure;
-                    return Action.Create("Login_Finish", action[0], status);
+                    return NModel.Terms.Action.Create("Login_Finish", action[0], status);
 
                 case "Logout":
                     modelUserToRealUser.TryGetValue((string)((CompoundTerm)action[0])[0], out userName); //"OleBrumm" -> "user"
