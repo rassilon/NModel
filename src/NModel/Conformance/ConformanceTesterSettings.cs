@@ -380,7 +380,7 @@ namespace NModel.Conformance
         /// A timeout action is observable and takes no arguments. Default is "Timeout".
         /// Only used with IAsyncStepper.
         /// </summary>
-        internal Action timeoutAction = Action.Create("Timeout");
+        internal NModel.Terms.Action timeoutAction = NModel.Terms.Action.Create("Timeout");
         /// <summary>
         /// A name of an action that happens when a wait action has been executed and no 
         /// obsevable action occurred within the time limit provided in the wait action. 
@@ -395,7 +395,7 @@ namespace NModel.Conformance
             }
             set
             {
-                timeoutAction = Action.Create(value);
+                timeoutAction = NModel.Terms.Action.Create(value);
             }
         }
         #endregion
