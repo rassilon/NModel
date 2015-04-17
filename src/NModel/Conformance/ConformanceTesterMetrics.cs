@@ -67,7 +67,7 @@ namespace NModel.Conformance
                 }
                 else
                 {
-                    sw.WriteLine(")");
+                    WriteLine(sw, ")");
                 }
             }
         }
