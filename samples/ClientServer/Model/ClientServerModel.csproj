@@ -53,7 +53,17 @@
     <Compile Include="ClientServer.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ContractTest.txt" />
+    <Content Include="mpv_composition.txt" />
+    <Content Include="mpv_contract.txt" />
+    <Content Include="mpv_contract_test.txt" />
+    <Content Include="mpv_scenario.txt" />
+    <Content Include="mpv_scenario_test.txt" />
+    <Content Include="otg_contract.txt" />
+    <Content Include="otg_scenario.txt" />
     <Content Include="README.txt" />
+    <Content Include="Scenario.txt" />
+    <Content Include="ScenarioTest.txt" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
@@ -72,6 +82,9 @@
       <Project>{9e9ea768-11cf-49da-919f-3bd3c3ea942b}</Project>
       <Name>NModel</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="build.bat" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>
