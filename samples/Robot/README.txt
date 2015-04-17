@@ -1,3 +1,4 @@
+Custom strategies are discussed in the book at secition 12.4 and 12.5.4
 Illustrates the use of MDP based strategies. 
 To build the example dlls use Visual Studio or:
 
