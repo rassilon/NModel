@@ -1,7 +1,7 @@
 # NModel
 NModel fork from nmodel.codeplex.com
 
-NModel is a model basded checking tool.
+NModel is a model basded testing tool.
 
 NModel hasn't changed in ages, but it still utilizes the .Net 2.0 and MSGlee for graph visualization.
 
